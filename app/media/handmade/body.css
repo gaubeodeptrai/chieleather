@@ -1,0 +1,132 @@
+body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center
+        }
+        
+        .page-title-margin {
+            margin-top: 25px;
+            margin-bottom: 55px
+        }
+        
+        .archive-title-margin {
+            margin-top: 25px;
+            margin-bottom: 55px
+        }
+        
+        .single-blog-title-margin {
+            margin-top: 25px;
+            margin-bottom: 55px
+        }
+        
+        body {
+            /*font-family: "Varela Round";*/
+            font-weight: 400;
+            font-style: normal;
+            font-size: 14px
+        }
+        
+        h1 {
+           /* font-family: "Playfair Display";*/
+            font-weight: 400;
+            font-style: normal;
+            font-size: 36px
+        }
+        
+        h2 {
+           /* font-family: "Playfair Display";*/
+            font-weight: 400;
+            font-style: normal;
+            font-size: 28px
+        }
+        
+        h3 {
+         /*   font-family: "Playfair Display";*/
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px
+        }
+        
+        h4 {
+            font-family: "Playfair Display";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 21px
+        }
+        
+        h5 {
+            font-family: "Playfair Display";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px
+        }
+        
+        h6 {
+            font-family: "Playfair Display";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 14px;
+        }
+        
+        
+        
+        .page-title-inner h1 {
+            font-family: "Playfair Display";
+            text-transform: none;
+            font-weight: 400;
+            font-style: normal;
+            color: #333;
+            font-size: 35px
+        }
+        
+        .page-title-inner .page-sub-title {
+            font-family: "Playfair Display";
+            text-transform: none;
+            font-weight: 400italic;
+            font-style: normal;
+            color: #333;
+            font-size: 14px
+        }
+        
+        .archive-product-title-margin {
+            margin-top: 25px;
+            margin-bottom: 55px;
+        }
+        
+        .single-product-title-margin {
+            margin-top: 25px;
+            margin-bottom: 55px;
+        }
+        
+        .portfolio-title-margin {
+            margin-top: 25px;
+            margin-bottom: 55px;
+        }
+        
+         .vc_custom_1443867642165 {
+            margin-top: 25px !important;
+            margin-bottom: 20px !important
+        }
+        
+        .vc_custom_1443857836785 {
+            margin-top: 22px !important;
+            margin-bottom: 77px !important
+        }
+        
+        .vc_custom_1444636519242 {
+            margin-top: 53px !important
+        }
+        
+         img.wp-smiley,
+        img.emoji {
+            display: inline!important;
+            border: none!important;
+            box-shadow: none!important;
+            height: 1em!important;
+            width: 1em!important;
+            margin: 0 .07em!important;
+            vertical-align: -0.1em!important;
+            background: none!important;
+            padding: 0!important
+        }

@@ -1,0 +1,52 @@
+{
+    "name": "noumo/easyii-shop",
+    "description": "Easyiicms simple shop with examples of all modules",
+    "keywords": ["yii2", "cms", "control panel", "admin", "easy", "shop"],
+    "homepage": "http://easyiicms.com",
+    "type": "project",
+    "license": "GNU GPL V3",
+    "support": {
+        "wiki": "http://easyiicms.com/docs",
+        "source": "https://github.com/noumo/easyii-shop.git",
+        "issues": "https://github.com/noumo/easyii-shop/issues"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "noumo/easyii": "dev-master",
+        "yiisoft/yii2-authclient": "^2.1",
+        "amnah/yii2-user": "^5.0",
+        "imanilchaudhari/yii2-social-share": "dev-master",
+        "ijackua/yii2-sharelinks-widget": "dev-master",
+        "kartik-v/yii2-social": "@dev",
+        "tugmaks/yii2-google-maps": "*",
+        "2amigos/yii2-google-maps-library": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject"
+        ]
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "generateCookieValidationKey": [
+                "app/config/web.php"
+            ]
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        },
+	    "writable": [
+            "assets",
+            "uploads",
+            "runtime"
+        ]
+    }
+}
